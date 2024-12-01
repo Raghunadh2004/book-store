@@ -17,7 +17,7 @@ RUN npm ci
 COPY . /app
 
 # Expose the application port
-EXPOSE 5000
+EXPOSE 5002
 
 # Run nodemon to start the app with index.js
 CMD ["nodemon", "index.js"]
