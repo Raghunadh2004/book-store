@@ -1,0 +1,22 @@
+version: '3'
+services:
+  container1:
+    image: maturiraghu/frontend-image
+    ports:
+      - "5173:5173"
+    networks:
+      - mynetwork
+    depends_on:
+      - container2
+
+  container2:
+    image: maturiraghu/backend-image
+    ports:
+      - "5000:5000"
+    networks:
+      - mynetwork
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+networks:
+  mynetwork:
