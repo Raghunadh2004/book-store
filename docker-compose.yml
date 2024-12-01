@@ -1,22 +1,15 @@
 version: '3'
 services:
-  container1:
-    image: maturiraghu/frontend-image
+  frontend:
+    image: maturiraghu/frontend-image:latest
+    restart: always
     ports:
-      - "5173:5173"
-    networks:
-      - mynetwork
-    depends_on:
-      - container2
-
-  container2:
-    image: maturiraghu/backend-image
+      - '5173:5173'
+  backend:
+    image: maturiraghu/backend-image:latest
+    restart: always
     ports:
-      - "5000:5000"
-    networks:
-      - mynetwork
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
-
-networks:
-  mynetwork:
+      - '5000:5000'
+    environment:
+      - DB_URL = "mongodb+srv://maturiraghunadh:PpCT2VGz3HfB7VKJ@cluster0.gxbg6.mongodb.net/book-store?retryWrites=true&w=majority&appName=Cluster0"
+      - JWT_SECRET_KEY = "87245759fe82aacdacb9d9bd672170fee7266b0f24d3acc329e4a498288ae20f86a1f5dc12f9090fa73b488318f42df77ff94b50bf41ce0c773237269d814f03"
