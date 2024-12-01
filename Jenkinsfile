@@ -50,10 +50,23 @@ pipeline {
                             docker push ${DOCKER_USERNAME}/frontend-image:latest
                             docker tag backend-image ${DOCKER_USERNAME}/backend-image:latest
                             docker push ${DOCKER_USERNAME}/backend-image:latest
+                            docker rmi backend-image
+                            docker rmi frontend-image
                         """
                     }
                 }
             }
         }
+    
+        stage('Clean Docker Images'){
+            steps{
+                script{
+                    sh 'docker container prune -f'
+                    sh 'docker image prune -f'
+                }
+            }
+        }
+
+        
     }
 }
