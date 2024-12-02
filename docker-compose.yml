@@ -6,11 +6,18 @@ services:
     ports:
       - '5173:5173'
     command: npm run dev --host
+    environment:
+      - VITE_APIKEY="AIzaSyD7ZwB8GVj5sn6NJ_HarqMUWYvfAmpBVFk"
+      - VITE_AUTHDOMAIN="book-store-app-db422.firebaseapp.com"
+      - VITE_PROJECTID="book-store-app-db422"
+      - VITE_STORAGEBUCKET="book-store-app-db422.firebasestorage.app"
+      - VITE_MESSAGINGSENDERID="295613074035"
+      - VITE_APPID="1:295613074035:web:a96722a160f285bb69f806"
   backend:
     image: maturiraghu/backend-image:latest
     restart: always
     ports:
       - '5000:5000'
     environment:
-      - DB_URL="mongodb+srv://maturiraghunadh:PpCT2VGz3HfB7VKJ@cluster0.gxbg6.mongodb.net/book-store?retryWrites=true&w=majority&appName=Cluster0"
-      - JWT_SECRET_KEY="87245759fe82aacdacb9d9bd672170fee7266b0f24d3acc329e4a498288ae20f86a1f5dc12f9090fa73b488318f42df77ff94b50bf41ce0c773237269d814f03"
+      - DB_URL = "mongodb+srv://maturiraghunadh:PpCT2VGz3HfB7VKJ@cluster0.gxbg6.mongodb.net/book-store?retryWrites=true&w=majority&appName=Cluster0"
+      - JWT_SECRET_KEY = "87245759fe82aacdacb9d9bd672170fee7266b0f24d3acc329e4a498288ae20f86a1f5dc12f9090fa73b488318f42df77ff94b50bf41ce0c773237269d814f03"

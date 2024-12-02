@@ -54,13 +54,6 @@ pipeline {
                 }
             }
         }
-        stage('Ansible Deployment') {
-            steps {
-                script { 
-                    sh 'ansible-playbook -i inventory-k8 playbook-k8.yml'
-                }
-            }
-        }
     }
 
 }

@@ -15,6 +15,7 @@ const Login = () => {
         watch,
         formState: { errors },
     } = useForm()
+    console.log(import.meta.env.VITE_FIREBASE_API_KEY); // Vite
 
     const onSubmit = async (data) =>{
         try {
