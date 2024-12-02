@@ -12,32 +12,21 @@ pipeline {
             }
         }
 
-        stage('Frontend Build') {
+        stage('frontend build') {
             steps {
-                dir('frontend') {
-                    sh "npm install"
-                }
+                dir('frontend'){
+                sh "npm install"
+                sh 'docker build -t frontend-image .'
+            }
             }
         }
 
-        stage('Backend Build') {
+        stage("Backend build") {
             steps {
-                dir('backend') {
-                    sh "npm install"
-                }
-            }
-        }
-
-        stage('Build Frontend Image') {
-            steps {
-                sh 'docker build -t frontend-image -f ./frontend/Dockerfile ./frontend'
-            }
-        }
-
-        stage('Build Backend Image') {
-            steps {
-                sh 'docker build -t backend-image -f ./backend/Dockerfile ./backend'
-            }
+                dir('backend'){
+                sh "npm install"
+                sh 'docker build -t backend-image .'
+            }}
         }
 
         stage('Push to Docker Hub') {

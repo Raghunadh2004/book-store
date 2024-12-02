@@ -14,5 +14,5 @@ RUN npm install
 # Bundle app source
 COPY . /app
 
-EXPOSE 3000
+EXPOSE 5173
 CMD [ "npm", "run", "dev" ]
