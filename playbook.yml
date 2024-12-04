@@ -1,6 +1,7 @@
 ---
 - name: Deploy MERN Application
-  hosts: all
+  hosts: localhost
+  connection: local
   become: true
   gather_facts: no
   vars:
