@@ -4,11 +4,11 @@ metadata:
   name: frontend-service
   namespace: mern-app
 spec:
-  type: nodePort
+  type: NodePort  # Ensure this is capitalized as 'NodePort'
   selector:
     app: frontend
   ports:
-  - name: http
-    port: 5173
-    targetPort: 5173
-    nodePort: 30000
+    - name: http
+      port: 5173        # Port exposed within the Kubernetes cluster
+      targetPort: 5173  # Port on the frontend container
+      nodePort: 30001   # Port exposed on each Node in the cluster
