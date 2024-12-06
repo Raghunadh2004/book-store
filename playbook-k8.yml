@@ -3,12 +3,13 @@
   hosts: all
   tasks:
 
-    - name: install pre-requisites
-      pip:
+    - name: Install pre-requisites using apt
+      apt:
         name:
-          - openshift
-          - pyyaml
-          - kubernetes 
+          - python3-openshift  # OpenShift client and libraries
+          - python3-yaml       # For working with YAML
+          - python3-kubernetes # Kubernetes client libraries
+        state: present
 
     - name: Apply Secrets
       kubernetes.core.k8s:

@@ -4,7 +4,7 @@ metadata:
   name: frontend-service
   namespace: mern-app
 spec:
-  type: LoadBalancer
+  type: nodePort
   selector:
     app: frontend
   ports:
