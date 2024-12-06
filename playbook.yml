@@ -2,7 +2,7 @@
 - name: Deploy MERN Application
   hosts: all
   connection: local
-  become: true
+  become: false
   vars:
     ansible_become_pass: "Raghu@2004"
 
