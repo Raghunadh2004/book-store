@@ -1,9 +1,8 @@
 ---
 - name: Deploy MERN Application
-  hosts: localhost
+  hosts: all
   connection: local
   become: true
-  gather_facts: no
   vars:
     ansible_become_pass: "Raghu@2004"
 

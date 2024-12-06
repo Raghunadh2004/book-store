@@ -54,13 +54,19 @@ pipeline {
                 }
             }
         }
-        stage('Ansible'){
-            steps{
-                script{
-                    sh 'ansible-playbook -i inventory playbook.yml'
-                }
+         stage('Step 6: Ansible Deployment') {
+            steps {
+                ansiblePlaybook(
+                    colorized: true,
+                    credentialsId: 'localhost',
+                    disableHostKeyChecking: true,
+                    installation: 'Ansible',
+                    inventory: 'inventory',
+                    playbook: 'playbook.yml',
+                    sudoUser: null
+                )
             }
-        }
+         }
     }
 
 }
