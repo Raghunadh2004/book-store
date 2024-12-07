@@ -7,20 +7,12 @@ require('dotenv').config();
 
 // Middleware
 app.use(express.json());
-// Determine the origin based on the environment (localhost or Kubernetes)
-const allowedOrigin = (req) => {
-    const frontendUrl = req.headers.origin;
-    if (frontendUrl === 'http://localhost:5173') {
-      return 'http://localhost:5173';  // Localhost for development
-    } else {
-      return 'http://192.168.49.2:30001';  // Kubernetes frontend URL
-    }
-  };
+
   
-  app.use(cors({
-    origin: allowedOrigin,
-    credentials: true,  // Allow cookies to be sent
-  }));
+app.use(cors({
+  origin: ['http://localhost:5173', 'http://192.168.49.2:30001'],
+  credentials: true
+}))
 
 // Routes
 const bookRoutes = require('./src/books/book.route');
