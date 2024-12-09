@@ -7,14 +7,14 @@ pipeline {
         KUBECONFIG = "/var/lib/jenkins/.kube/config"
     }
     stages {
-        stage('Clone Git') {
+        stage('Step 1 :Clone Git') {
             steps {
                 git branch: 'main',
                 url: 'https://github.com/Raghunadh2004/book-store.git'
             }
         }
 
-        stage('frontend build') {
+        stage('Step 2 : Frontend build') {
             steps {
                 dir('frontend'){
                 sh "npm install"
@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage("Backend build") {
+        stage("Step 3 : Backend build") {
             steps {
                 dir('backend'){
                 sh "npm install"
@@ -31,7 +31,7 @@ pipeline {
             }}
         }
 
-        stage('Push to Docker Hub') {
+        stage('Step 4 : Push to Docker Hub') {
             steps {
                 script {
                     withCredentials([usernamePassword(credentialsId: 'DockerHubCred', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
@@ -48,7 +48,7 @@ pipeline {
                 }
             }
         }
-        stage('Clean Docker Images'){
+        stage('Step 5 : Clean Docker Images'){
             steps{
                 script{
                     sh 'docker container prune -f'
