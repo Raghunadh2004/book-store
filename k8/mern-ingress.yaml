@@ -5,6 +5,8 @@ metadata:
   namespace: mern-app
   labels:
     name: fintrack-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
     - host: book-store
@@ -17,7 +19,10 @@ spec:
                 name: frontend-service
                 port:
                   number: 5173
-          - path: "/backend"
+    - host: api.book-store
+      http:
+        paths:
+          - path: "/"
             pathType: Prefix
             backend:
               service:
