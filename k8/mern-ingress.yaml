@@ -7,7 +7,7 @@ metadata:
     name: fintrack-ingress
 spec:
   rules:
-    - host: book-store
+    - host: book-store.com
       http:
         paths:
           - path: "/"
