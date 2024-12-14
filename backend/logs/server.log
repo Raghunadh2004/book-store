@@ -1,9 +1,8 @@
-{"level":"info","message":"Request to get all books","timestamp":"2024-12-09 22:53:29"}
-{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-09 22:53:29"}
-{"level":"info","message":"Request to get all books","timestamp":"2024-12-09 22:53:32"}
-{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-09 22:53:32"}
-{"level":"info","message":"Request to get all books","timestamp":"2024-12-09 22:59:11"}
-{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-09 22:59:11"}
-{"bookId":"672e15be350e5b38b9fd594a","level":"info","message":"Request to get a single book","timestamp":"2024-12-09 22:59:13"}
-{"book":{"_id":"672e15be350e5b38b9fd594a","category":"fiction","coverImage":"book-15.png","createdAt":"2024-12-09T17:29:13.814Z","description":"Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.","newPrice":12.99,"oldPrice":22.99,"title":"Gone with the Wind","trending":false},"level":"info","message":"Fetched single book successfully","timestamp":"2024-12-09 22:59:13"}
-{"email":"admin@admin.com","level":"info","message":"Orders retrieved for email","numberOfOrders":3,"timestamp":"2024-12-09 22:59:27"}
+{"bookId":"672e15be350e5b38b9fd594b","level":"info","message":"Request to get a single book","timestamp":"2024-12-13 09:46:23"}
+{"book":{"_id":"672e15be350e5b38b9fd594b","category":"fiction","coverImage":"book-16.png","createdAt":"2024-12-13T09:46:23.100Z","description":"Percy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper. And lately, being away at boarding school is only getting worse - Percy could have sworn his pre-algebra teacher turned into a monster and tried to kill him","newPrice":19.99,"oldPrice":24.99,"title":"The Lightning Thief","trending":false},"level":"info","message":"Fetched single book successfully","timestamp":"2024-12-13 09:46:23"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-13 09:46:26"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-13 09:46:26"}
+{"bookId":"672e15be350e5b38b9fd594a","level":"info","message":"Request to get a single book","timestamp":"2024-12-13 09:46:44"}
+{"book":{"_id":"672e15be350e5b38b9fd594a","category":"fiction","coverImage":"book-15.png","createdAt":"2024-12-13T09:46:44.524Z","description":"Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.","newPrice":12.99,"oldPrice":22.99,"title":"Gone with the Wind","trending":false},"level":"info","message":"Fetched single book successfully","timestamp":"2024-12-13 09:46:44"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-13 09:46:54"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-13 09:46:54"}
