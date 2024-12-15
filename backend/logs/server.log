@@ -31,3 +31,19 @@
 {"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:40:48"}
 {"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:40:59"}
 {"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:40:59"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:47:46"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:47:46"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:48:24"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:48:24"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:50:36"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:50:36"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:52:30"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:52:30"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:54:47"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:54:47"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:56:45"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:56:45"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:58:44"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:58:44"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:59:32"}
+{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:59:32"}

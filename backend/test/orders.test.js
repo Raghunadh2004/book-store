@@ -3,17 +3,32 @@ const chaiHttp = require('chai-http');
 const sinon = require('sinon');
 const app = require('../index.js'); // Your Express app
 const Order = require('../src/orders/order.model.js'); // Import your Order model
+const mongoose = require('mongoose'); 
 
 const { expect } = chai;
 chai.use(chaiHttp);
 
 describe('GET /orders/email/:email', () => {
-    let findStub;
 
-    afterEach(() => {
-        // if (findStub) {
-        //     findStub.restore(); // Restore the stub after each test
-        // }
+    before((done) => {
+        // Set a different port for testing
+         // Use a different port for testing
+
+        // Start the server before running the tests
+        server = app.listen(5001, done); // Store the server instance
+    });
+
+    after((done) => {
+        // Close the server after all tests are done
+        if (server) {
+            server.close(() => {
+                console.log('Server closed after tests');
+                done();
+            });
+        } else {
+            done();
+        }
+        process.exit(0);
     });
       
     it('should return orders when orders are found for the email', async function() {
