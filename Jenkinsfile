@@ -23,12 +23,21 @@ pipeline {
             }
         }
 
+
         stage("Step 3 : Backend build") {
             steps {
                 dir('backend'){
                 sh "npm install"
                 sh 'docker build -t backend-image .'
             }}
+        }
+
+        stage('Testing') {
+            steps{
+                dir('backend'){
+                    sh "npm test"
+                }
+            }
         }
 
         stage('Step 4 : Push to Docker Hub') {
