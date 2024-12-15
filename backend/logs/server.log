@@ -1,49 +1,42 @@
-{"level":"info","message":"Request to get all books","timestamp":"2024-12-14 15:55:41"}
-{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-14 15:55:41"}
-{"bookId":"672e15be350e5b38b9fd594a","level":"info","message":"Request to get a single book","timestamp":"2024-12-14 15:55:56"}
-{"book":{"_id":"672e15be350e5b38b9fd594a","category":"fiction","coverImage":"book-15.png","createdAt":"2024-12-14T15:55:56.445Z","description":"Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.","newPrice":12.99,"oldPrice":22.99,"title":"Gone with the Wind","trending":false},"level":"info","message":"Fetched single book successfully","timestamp":"2024-12-14 15:55:56"}
-{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 03:29:17"}
-{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 03:29:17"}
-{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 03:29:22"}
-{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 03:29:22"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:29:43"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:31:11"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:32:41"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:34:42"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:35:19"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:35:19"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:35:29"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:35:29"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:36:06"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:36:06"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:36:23"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:36:23"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:36:45"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:36:45"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:36:46"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:38:31"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:38:31"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:39:40"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:39:40"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:40:27"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:40:27"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:40:48"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:40:48"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:40:59"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:40:59"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:47:46"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:47:46"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:48:24"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:48:24"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:50:36"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:50:36"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:52:30"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:52:30"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:54:47"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:54:47"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:56:45"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:56:45"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:58:44"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:58:44"}
-{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:59:32"}
-{"email":"test@example.com","level":"warn","message":"No orders found for email","timestamp":"2024-12-15 09:59:32"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 04:35:57"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 04:35:57"}
+{"bookId":"672e15be350e5b38b9fd594a","level":"info","message":"Request to get a single book","timestamp":"2024-12-15 04:35:59"}
+{"book":{"_id":"672e15be350e5b38b9fd594a","category":"fiction","coverImage":"book-15.png","createdAt":"2024-12-15T04:35:59.525Z","description":"Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.","newPrice":12.99,"oldPrice":22.99,"title":"Gone with the Wind","trending":false},"level":"info","message":"Fetched single book successfully","timestamp":"2024-12-15 04:35:59"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 04:36:04"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 07:58:38"}
+{"error":"Operation `books.find()` buffering timed out after 10000ms","level":"error","message":"Error in getting all books","stack":"MongooseError: Operation `books.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (/app/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-12-15 07:58:48"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 07:58:54"}
+{"error":"Operation `books.find()` buffering timed out after 10000ms","level":"error","message":"Error in getting all books","stack":"MongooseError: Operation `books.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (/app/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-12-15 07:59:04"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 07:59:09"}
+{"error":"Operation `books.find()` buffering timed out after 10000ms","level":"error","message":"Error in getting all books","stack":"MongooseError: Operation `books.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (/app/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-12-15 07:59:19"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 07:59:25"}
+{"error":"Operation `books.find()` buffering timed out after 10000ms","level":"error","message":"Error in getting all books","stack":"MongooseError: Operation `books.find()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (/app/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-12-15 07:59:35"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 08:00:06"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 08:00:06"}
+{"body":{"category":"fiction","coverImage":"book-9.png","description":"it is about xyz","newPrice":"15","oldPrice":"23","title":"xyz","trending":false},"level":"info","message":"Request to post a new book","timestamp":"2024-12-15 08:02:18"}
+{"book":{"__v":0,"_id":"675e8d0ad5e08fbb4c3921e7","category":"fiction","coverImage":"book-9.png","createdAt":"2024-12-15T08:02:18.729Z","description":"it is about xyz","newPrice":15,"oldPrice":23,"title":"xyz","trending":false,"updatedAt":"2024-12-15T08:02:18.729Z"},"level":"info","message":"Book posted successfully","timestamp":"2024-12-15 08:02:18"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 08:02:22"}
+{"count":19,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 08:02:22"}
+{"bookId":"675e8d0ad5e08fbb4c3921e7","level":"info","message":"Request to get a single book","timestamp":"2024-12-15 08:02:48"}
+{"book":{"__v":0,"_id":"675e8d0ad5e08fbb4c3921e7","category":"fiction","coverImage":"book-9.png","createdAt":"2024-12-15T08:02:18.729Z","description":"it is about xyz","newPrice":15,"oldPrice":23,"title":"xyz","trending":false,"updatedAt":"2024-12-15T08:02:18.729Z"},"level":"info","message":"Fetched single book successfully","timestamp":"2024-12-15 08:02:48"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:00:52"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:00:52"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:02:29"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:02:29"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:02:51"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:02:51"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":7,"timestamp":"2024-12-15 09:03:11"}
+{"level":"info","message":"Order created successfully","orderDetails":{"__v":0,"_id":"675e9b844cab9b5e222abe5e","address":{"city":"Bangalore ","country":"India","state":"Karnataka","zipcode":"560100"},"createdAt":"2024-12-15T09:04:04.141Z","email":"user@user.com","name":"order3","phone":123456,"productIds":["672e15be350e5b38b9fd594b","672e15be350e5b38b9fd594c"],"totalPrice":59.98,"updatedAt":"2024-12-15T09:04:04.141Z"},"orderId":"675e9b844cab9b5e222abe5e","timestamp":"2024-12-15 09:04:04"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:04:31"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:04:31"}
+{"email":"user@user.com","level":"info","message":"Orders retrieved for email","numberOfOrders":8,"timestamp":"2024-12-15 09:04:46"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:05:48"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:05:48"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:06:19"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:06:19"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:12:49"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:12:49"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:15:33"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:15:33"}
+{"level":"info","message":"Request to get all books","timestamp":"2024-12-15 09:16:53"}
+{"count":18,"level":"info","message":"Fetched all books successfully","timestamp":"2024-12-15 09:16:53"}
